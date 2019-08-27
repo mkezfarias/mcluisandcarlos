@@ -9,7 +9,7 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <header id="header">
-      <img id="header-img" src="images/logo.png">
+      <img id="header-img" src="https://www.internationalanimalrescue.org/sites/all/themes/iar/img/logo.png">
       <nav id="nav-bar">
         <a href="#learn" class="nav-link">Learn more</a>
         <a href="#news" class="nav-link">Latest News</a>
@@ -22,22 +22,31 @@
     
       <section id="learn">
       <div>
-         <video width="320" height="240" controls>
+         <video width="320" height="240" controls id="video">
              <source src="videos/myvideo.mp4" type="video/mp4">
              Your browser does not support the video tag.
             </video>
      </div>
-     <div class="form">
-       <form id="form" method='post' action='https://www.freecodecamp.com/email-submit'>
-          <label>
-             Enter your email to receive our news Letter      
-         <input type="email" id="email" placeholder="example@example.com">
-         <button type="submit" id="submit" value="Submit">Submit </button>
-         </label>
+      </section>
 
-        </form>
-  </div>
-</section>
+      <section id="news">
+          <div class="form">
+              <form id="form" method='post' action='https://www.freecodecamp.com/email-submit'>
+                 <label>
+                    Enter your email to receive our news Letter      
+                   <input type="email" name="email" id="email" placeholder="example@example.com">
+                 </label>
+                   <input type="submit" id="submit" value="Submit">
+               </form>
+         </div>
+      </section>
+      <section id="adopt">
+        <p> 
+            Some animals stay with us forever and depend on us for lifelong care because they are no longer able to fend for themselves. By adopting one or more of the permanent members of our family, you can help us keep them healthy, happy and safe and support our work rescuing and rehabilitating other animals too. In return, you’ll become a special friend to an animal in need.
+            The pack is a small 'thank you' for your support. It also serves as a proud reminder of the animal you are helping to care for, with a photo for display, a fact sheet and exclusive updates on your chosen animal's progress. We have two pack options - an online printable option and a postal option.
+        </p>
+      </section>
+
 
 </div>
     <script  src="js/index.js"></script>
