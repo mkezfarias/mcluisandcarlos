@@ -1,3 +1,8 @@
+body{
+    background: lightblue;
+
+}
+
 .container {
     display: flex;  
     flex-flow: row wrap;
@@ -11,12 +16,25 @@
 
 header {
     position: fixed;
+    display: inline-flex;
+    background-color: blue;
+    width: 100%;
+    z-index: 1;
 }
 
+.nav-link {
+float:right;
+padding:20px;
+margin: 20px;
+text-decoration: none;
+font-size: 20px;
+color: white;
+}
 
 #header-img {
-    height: 100px;
+    height: 150px;
     width: 150px;
+    padding: 20px;
 }
 
 
@@ -27,4 +45,26 @@ header {
    {
     display: none;
    }
+}
+
+#learn {
+    padding:100px;
+    background-color: aliceblue;
+}
+
+#news {
+    padding:100px;
+    background-color: aqua;
+}
+
+#adopt {
+    padding:100px;
+    background-color: aliceblue;
+}
+
+.videodesc {
+    size: 20px;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
