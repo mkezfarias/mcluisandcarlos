@@ -1,10 +1,24 @@
+.container {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+}
+
+
 header {
     position: fixed;
 }
 
-.container {
-    display: flex;
+
+#header-img {
+    height: 100px;
+    width: 150px;
 }
+
 
 
 @media (max-width: 600px) 
